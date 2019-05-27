@@ -5,6 +5,10 @@ import java.sql.Date;
  *
  */
 public class Persona {
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + ", fechaNacimiento=" + fechaNacimiento + "]";
+	}
 	//atributos
 	/**
 	 * Atributo nombre define el nombre de la persona
